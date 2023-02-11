@@ -1,7 +1,7 @@
-import { IProductCategory } from '../../models';
+import { ICategory } from '../../types/category.interface';
 
 interface categoryProps {
-  category: IProductCategory;
+  category: ICategory;
 }
 
 export function ProductCategory(props: categoryProps) {
